@@ -1,0 +1,28 @@
+.bg { -fx-background-color: #20062D;  }
+.greet{-fx-font-family: Krub; -fx-text-fill: aliceblue;  -fx-font-size: 30px; -fx-font-weight: bold;}
+.festival{-fx-pref-width: 910px;-fx-pref-height: 165px;-fx-background-color: transparent;}
+.festival > .viewport{-fx-background-color: transparent;}
+
+/*elements modifications*/
+.button-add{-fx-pref-width: 155px; -fx-font-size: 15px; -fx-pref-height: 30px;}
+
+/*scrollbar*/
+.scroll-bar > .increment-button > .increment-arrow,
+.scroll-bar > .decrement-button > .decrement-arrow{-fx-background-color: transparent;}
+.scroll-bar:horizontal{-fx-background-color:transparent; -fx-pref-height: 10px;}
+.scroll-bar:horizontal .thumb{-fx-background-color: #666; }
+.scroll-bar:horizontal:hover{-fx-background-color: black; }
+
+/*Dynamic content */
+.button-recommendation-add {
+    -fx-pref-width: 20; -fx-pref-height: 20;
+    -fx-font-size: 14;
+    -fx-background-radius: 50%;
+}
+.no-data-message{
+    -fx-font-family: Krub; -fx-font-size: 32px;-fx-text-fill: #8F8F8F;
+}
+.region_title{
+    -fx-font-family: Krub;-fx-font-size: 12px; -fx-text-fill: aliceblue;
+    -fx-max-width: 127px;
+}

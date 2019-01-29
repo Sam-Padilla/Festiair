@@ -1,0 +1,20 @@
+/*background*/
+.bg{
+    -fx-pref-width: 960;
+    -fx-pref-height: 540;
+    -fx-background-image: url("/view/img/backgroundPageStart.jpg");
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+
+/*elements*/
+
+.bg__logo{-fx-font-family: Krub;  -fx-font-size: 35px; -fx-font-weight: bold;}
+.bg__quote{-fx-font-size: 65px ; -fx-font-family: "Permanent Marker";}
+.bg__second-quote{-fx-font-size: 18px ;}
+
+/*shared styles*/
+.bg__logo,.bg__quote,.bg__second-quote{-fx-text-fill: aliceblue; }
+.bg__logo,.bg__second-quote{-fx-font-family: Krub;}
+
+

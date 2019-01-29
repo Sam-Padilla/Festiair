@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="540.0" minWidth="960.0" styleClass="bg" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.pages.AddFestival">
+    <!--grid restrictions-->
+    <columnConstraints>
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="480.0" />
+        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="480.0" />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    </rowConstraints>
+    <!--end grid restrictions-->
+
+    <!--Sections-->
+    <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="right-container">
+        <Label layoutX="50.0" layoutY="62.0" prefHeight="59.0" prefWidth="357.0" styleClass="title" text="Agregar Festival" />
+        <TextField fx:id="inputName" layoutX="50.0" layoutY="160.0" promptText="Nombre" styleClass="input" />
+        <TextField fx:id="inputGenre" layoutX="50.0" layoutY="230.0" promptText="Género" styleClass="input, input-middle" />
+        <TextField fx:id="inputCountry" layoutX="50.0" layoutY="305.0" promptText="País" styleClass="input, input-bottom-1" />
+        <Button fx:id="buttonObtain" layoutX="50.0" layoutY="390.0" mnemonicParsing="false" onAction="#buttonCreateClick" styleClass="button" text="Crear" />
+        <Hyperlink layoutX="50.0" layoutY="485.0" onAction="#buttonReturnClick" styleClass="text-button" text="Regresar" />
+    </AnchorPane>
+    <AnchorPane prefHeight="200.0" prefWidth="337.0" styleClass="left-container" GridPane.columnIndex="1">
+        <Label layoutX="325.0" layoutY="25.0" styleClass="quote" text="Siente los beats" />
+    </AnchorPane>
+
+    <stylesheets> <URL value="@../components.css" /><URL value="@AddFestival.css" /></stylesheets>
+</GridPane>

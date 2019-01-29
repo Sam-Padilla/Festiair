@@ -1,0 +1,10 @@
+.left-container{
+    -fx-background-image: url("/view/img/backgroundCreateUser.jpg");
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+
+.right-container {-fx-background-color: #20062D;}
+
+/*custom elements*/
+.input-middle{-fx-pref-width: 255px;}  .input-bottom-1{-fx-pref-width: 170px;}  .input-bottom-2{-fx-pref-width: 145px;}

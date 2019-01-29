@@ -1,0 +1,22 @@
+/*------components styles*/
+/*button* & inputs*/
+.button{
+    -fx-pref-width: 110; -fx-pref-height: 30;
+    -fx-background-color: #E90C94; -fx-text-fill: aliceblue;
+}
+.button:hover{-fx-background-color: #F433AB;}
+.input{-fx-pref-width: 335px; -fx-pref-height: 40px; -fx-prompt-text-fill: #707070;}
+.button,.input{-fx-font-family: Krub; -fx-font-size: 18px}
+
+/*------text styles*/
+.text-button{-fx-text-fill: #eee; -fx-underline: true; }
+.text-button:hover{-fx-underline: false; -fx-text-fill: #ccc;}
+
+.title{ -fx-font-size: 44px; -fx-font-weight: bold;}
+.subtitle{-fx-font-size: 20px;}
+.quote{ -fx-font-size: 16px;}
+.title, .subtitle, .quote{-fx-font-family: Krub; -fx-text-fill: aliceblue;}
+
+
+
+

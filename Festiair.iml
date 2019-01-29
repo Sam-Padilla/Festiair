@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="hibernate" name="Hibernate">
+      <configuration>
+        <datasource-map>
+          <unit-entry name="a.xml" value="daa8e4d8-c9a8-4f2a-b9b2-ebc20d4e8355" />
+          <unit-entry name="hibernate.cfg.xml" />
+          <unit-entry name="model:hibernate.cfg.xml" value="daa8e4d8-c9a8-4f2a-b9b2-ebc20d4e8355" />
+        </datasource-map>
+        <naming-strategy-map />
+        <deploymentDescriptor name="hibernate.cfg.xml" url="file://$MODULE_DIR$/src/model/hibernate.cfg.xml" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Hibernate 5.3.6-5.3.6" level="project" />
+    <orderEntry type="library" name="postgresql-42.2.5" level="project" />
+    <orderEntry type="library" name="hibernate-jpamodelgen-5.3.7.Final" level="project" />
+  </component>
+</module>

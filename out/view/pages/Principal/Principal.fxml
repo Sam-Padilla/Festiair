@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Region?>
+
+<AnchorPane fx:id="pageMain" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="540.0" prefWidth="960.0" styleClass="bg" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.pages.Principal">
+    <!--Elements-->
+    <Label fx:id="greet" layoutX="50.0" layoutY="15.0" prefHeight="31.0" prefWidth="288.0" styleClass="greet" />
+    <Hyperlink layoutX="48.0" layoutY="45.0" onAction="#buttonExitClick" styleClass="text-button" text="Salir" />
+    <Button fx:id="buttonAdd" layoutX="755.0" layoutY="23.0" mnemonicParsing="false" onAction="#buttonAddClick" styleClass="button, button-add" text="Agregar Festival" />
+    <Label layoutX="50.0" layoutY="100.0" prefHeight="26.0" prefWidth="137.0" styleClass="subtitle" text="Tus Festivales" />
+    <Label layoutX="50.0" layoutY="305.0" prefHeight="26.0" prefWidth="177.0" styleClass="subtitle" text="Recomendaciones" />
+
+    <!--Section__components-->
+    <ScrollPane  layoutX="50.0" layoutY="125.0" styleClass="festival">
+        <AnchorPane fx:id="paneFestivalsMy" >
+        </AnchorPane>
+    </ScrollPane>
+    <ScrollPane layoutX="50.0" layoutY="332.0" styleClass="festival">
+       <AnchorPane fx:id="paneFestivalsRecommendations">
+       </AnchorPane>
+   </ScrollPane>
+
+    <stylesheets> <URL value="@../components.css" /> <URL value="@Principal.css" /> </stylesheets>
+</AnchorPane>

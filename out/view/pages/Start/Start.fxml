@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="pageStart" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" styleClass="bg" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.pages.Start">
+   <!--Elements-->
+    <Label layoutX="50.0" layoutY="20.0" prefHeight="47.0" prefWidth="173.0" styleClass="bg__logo" text="Festiair" />
+    <Label layoutX="50.0" layoutY="140.0" prefHeight="95.0" prefWidth="566.0" styleClass="bg__quote" text="Vive el momento" />
+    <Label layoutX="50.0" layoutY="208.0" prefHeight="47.0" prefWidth="291.0" styleClass="bg__second-quote" text="Organiza y descubre festivales" />
+    <TextField fx:id="inputId" layoutX="50.0" layoutY="315.0" promptText="Ingresa tu ID" styleClass="input" />
+    <Button fx:id="buttonAccept" layoutX="50.0" layoutY="385.0" mnemonicParsing="false" onAction="#buttonAcceptClick" styleClass="button" text="Aceptar" />
+    <Hyperlink fx:id="buttonObtain" layoutX="169.0" layoutY="405.0" onAction="#buttonObtainClick" styleClass="text-button" text="Obtener ID" />
+    <Label layoutX="730.0" layoutY="475.0" prefHeight="47.0" prefWidth="196.0" styleClass="quote" text="Nosotros ❤ los festivales" />
+
+    <stylesheets> <URL value="@../components.css" /> <URL value="@Start.css" /> </stylesheets>
+</AnchorPane>
