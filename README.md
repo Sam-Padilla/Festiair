@@ -4,6 +4,6 @@ Organiza y recomienda festivales en base a gustos y géneros favoritos de un usu
 
 Proyecto realizado con Java FX y conectado a PostgreSQL mediante Hibernate.
 
-![Primera Página](img/captura.png)
+![Primera Página](/img/captura.png)
 
 
