@@ -2,87 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d4228ec-f449-47ad-8943-a0fc944572a4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Festiair.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/antlr_2_7_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Festiair.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/antlr-2.7.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/byte-buddy-1.8.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/classmate-1.3.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/dom4j-1.6.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate-commons-annotations-5.0.4.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hibernate-core-5.3.6.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jandex-2.0.5.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javassist-3.23.1-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.activation-api-1.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javax.persistence-api-2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jboss-logging-3.3.2.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/jboss-transaction-api_1.2_spec-1.1.1.Final.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/pages/AddFestival.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/pages/ObtainID.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/pages/Principal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/controller/pages/Start.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/entities/FestivalEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/entities/GenreEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/entities/GenreFestivalsEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/entities/UserEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/entities/UserFestivalsEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/entities/UserGenresEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/entities/compoundKeys/GenreFestivalsKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/entities/compoundKeys/UserFestivalsKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/entities/compoundKeys/UserGenresKey.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/managers/FestivalManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/managers/GenreFestivalsManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/managers/GenreManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/managers/UserFestivalsManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/managers/UserGenresManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/managers/UsersManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/backgroundAddFestival.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/backgroundCreateUser.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/backgroundPageStart.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/letters/a.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/letters/b.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/letters/c.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/letters/d.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/letters/e.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/letters/f.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/letters/g.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/letters/h.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/letters/i.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/letters/j.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/letters/k.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/letters/l.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/letters/m.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/letters/n.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/letters/o.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/letters/p.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/letters/q.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/letters/r.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/letters/s.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/letters/t.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/letters/u.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/letters/v.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/letters/w.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/letters/x.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/letters/y.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/letters/z.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/img/letters/ñ.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/pages/AddFestival/AddFestival.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/pages/AddFestival/AddFestival.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/pages/ObtainId/ObtainID.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/pages/ObtainId/ObtainId.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/pages/Principal/Principal.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/pages/Principal/Principal.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/pages/Start/Start.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/pages/Start/Start.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/view/pages/components.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,8 +21,9 @@
           <entry key="project.open.time.12" value="2" />
           <entry key="project.open.time.17" value="1" />
           <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -109,6 +31,7 @@
           <entry key="gitignore" value="1" />
           <entry key="iml" value="2" />
           <entry key="java" value="7" />
+          <entry key="md" value="1" />
           <entry key="xml" value="4" />
         </counts>
       </usages-collector>
@@ -116,6 +39,7 @@
         <counts>
           <entry key="IDEA_MODULE" value="2" />
           <entry key="JAVA" value="7" />
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="4" />
         </counts>
@@ -123,18 +47,20 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="java" value="36" />
+          <entry key="md" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="36" />
+          <entry key="Markdown" value="5" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
@@ -146,38 +72,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="198">
+                <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/controller/Utils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
+            <state relative-caret-position="1617">
               <caret line="59" selection-start-line="59" selection-end-line="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_161/javafx-src.zip!/com/sun/javafx/application/LauncherImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="388" selection-start-line="388" selection-end-line="388" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_161/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="3096" selection-start-line="3096" selection-end-line="3096" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_161/javafx-src.zip!/com/sun/glass/ui/win/WinApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="176" selection-start-line="176" selection-end-line="176" />
             </state>
           </provider>
         </entry>
@@ -229,6 +140,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -238,7 +150,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="578" />
     <option name="width" value="1349" />
     <option name="height" value="1047" />
@@ -249,7 +161,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -265,14 +177,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548796113292" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548866531095" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../EventPro" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -323,17 +235,19 @@
       <workItem from="1548784689237" duration="430000" />
       <workItem from="1548785153308" duration="1019000" />
       <workItem from="1548794547873" duration="164000" />
-      <workItem from="1548794803916" duration="1290000" />
+      <workItem from="1548794803916" duration="1997000" />
+      <workItem from="1548866154551" duration="820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5457000" />
+    <option name="totallyTimeSpent" value="6984000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -350,7 +264,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32897604" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32897604" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32897604" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32897604" />
@@ -409,6 +323,44 @@
     <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_161/javafx-src.zip!/com/sun/javafx/application/LauncherImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="388" selection-start-line="388" selection-end-line="388" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_161/javafx-src.zip!/com/sun/glass/ui/win/WinApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="176" selection-start-line="176" selection-end-line="176" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_161/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="3096" selection-start-line="3096" selection-end-line="3096" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controller/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1617">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -432,41 +384,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_161/javafx-src.zip!/com/sun/javafx/application/LauncherImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="388" selection-start-line="388" selection-end-line="388" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_161/javafx-src.zip!/com/sun/glass/ui/win/WinApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="176" selection-start-line="176" selection-end-line="176" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/controller/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="59" selection-start-line="59" selection-end-line="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_161/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="3096" selection-start-line="3096" selection-end-line="3096" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="198">
+            <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
